@@ -1,0 +1,19 @@
+.storybook-sample {
+  padding: 1rem;
+}
+
+.storybook-sample--primary {
+  font-weight: bold;
+}
+
+.storybook-sample--secondary {
+  font-style: italic;
+}
+
+.storybook-sample--standard {
+  font-size: 1rem;
+}
+
+.storybook-sample--large {
+  font-size: 2rem;
+}
