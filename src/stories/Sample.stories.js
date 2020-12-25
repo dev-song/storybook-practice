@@ -3,7 +3,7 @@ import React from 'react';
 import { Sample } from './Sample';
 
 export default {
-  title: 'Sample',
+  title: 'Practice/Sample',
   component: Sample,
   argTypes: {
     backgroundColor: { control: 'color' },
