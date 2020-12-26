@@ -20,11 +20,14 @@ Primary.args = {
 
 export const Secondary = Template.bind({});
 Secondary.args = {
+  ...Primary.args,
+  primary: false,
   text: 'Secondary sample'
 };
 
 export const Large = Template.bind({});
 Large.args = {
+  ...Secondary.args,
   size: 'large',
   text: 'Large Sample',
 };

@@ -5,13 +5,13 @@ import './sample.css';
 export const Sample = ({ primary, backgroundColor, size, text, ...props }) => {
   const mode = primary ? 'storybook-sample--primary' : 'storybook-sample--secondary';
   return (
-    <div
+    <span
       className={['storybook-sample', `storybook-sample--${size}`, mode].join(' ')}
       style={backgroundColor && { backgroundColor }}
       {...props}
     >
       {text}
-    </div>
+    </span>
   );
 };
 
